@@ -138,7 +138,7 @@ public class TicTacToeGame extends JFrame {
 
     private void opponentMove() {
         if (currentPlayer == 'O') {
-            int[] bestMove = minimax(2, 'O'); // Adjust the depth level as desired
+            int[] bestMove = minimax(2, 'O');
             int row = bestMove[0];
             int col = bestMove[1];
 
